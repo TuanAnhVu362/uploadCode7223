@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.topic {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 30px;
+}
+
+.content {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.allrow {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.tick {
+    margin-left: 100px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.tick p {
+    padding: 10px;
+}
+
+.tick i {
+    color: rgb(135, 199, 38);
+    margin-right: 10px;
+}
